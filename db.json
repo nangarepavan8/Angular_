@@ -1,0 +1,44 @@
+{
+  "company": [
+    {
+      "id": 1,
+      "name": "Nitor Infotech",
+      "empcount": "700",
+      "revenue": "9876543",
+      "address": "Hinjewadi phase2",
+      "isactive": true
+    },
+    {
+      "id": 2,
+      "name": "Adform",
+      "empcount": "25",
+      "revenue": "112298765434cr",
+      "address": "Kurla Mumbai",
+      "isactive": true
+    },
+    {
+      "id": 4,
+      "name": "TCS",
+      "empcount": "22443355",
+      "revenue": "99999cr",
+      "address": "Hinjewadi phase3",
+      "isactive": true
+    },
+    {
+      "name": "LNT Infotech",
+      "empcount": "234567",
+      "revenue": "3456789765",
+      "address": "Mumbai",
+      "isactive": true,
+      "id": 5
+    },
+    {
+      "name": "Capgemini",
+      "empcount": "345435",
+      "revenue": "46456445",
+      "address": "UK",
+      "isactive": true,
+      "id": 6
+    }
+  ]
+}
