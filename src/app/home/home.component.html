@@ -1,0 +1,19 @@
+<h2 [ngStyle]="styleValue">{{headear | uppercase }}</h2>
+
+<h2 *ngIf="salary>10000" [ngClass]="classname">My salary is {{salary | currency : 'INR' }}</h2>
+
+
+<input #txt (change)="FunctionClick(txt.value)">
+<br>
+
+<button (click)="FunctionClick('click here')">Click Here</button>
+
+<br>
+
+<input [(ngModel)]="headear">
+
+<ul>
+    <li *ngFor="let item of colors">
+        {{item}} 
+    </li>
+</ul>

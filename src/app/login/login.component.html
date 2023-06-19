@@ -1,0 +1,42 @@
+<h2>User Login</h2>
+
+<mat-card>
+
+    <br>
+    <mat-card-content>
+        <form class="example-form" #loginform="ngForm" (submit)="ProceedLogin(loginform)">
+            <mat-form-field class="example-full-width">
+                <br>
+                <mat-label>Username</mat-label>
+                <br>
+                <input matInput type="text" placeholder="username" name="username" required value="" ngModel>
+            </mat-form-field>
+
+            <br>
+            <mat-form-field class="example-full-width">
+                <br>
+                <mat-label>Password</mat-label>
+                <br>
+                <input matInput type="password" placeholder="password" name="password" required ngModel>
+            </mat-form-field>
+
+            <br>
+            <div>
+                <button type="submit" mat-raised-button color="primary">Login</button>
+                <a style="margin: 5px;" mat-raised-button color="accent" (click)="RedirectRegister()">Register</a>
+            </div>
+        </form>
+
+
+    </mat-card-content>
+
+</mat-card>
+
+
+
+<!-- <mat-chip-listbox aria-label="Fish selection">
+    <mat-chip-option>One fish</mat-chip-option>
+    <mat-chip-option>Two fish</mat-chip-option>
+    <mat-chip-option color="accent" selected>Accent fish</mat-chip-option>
+    <mat-chip-option color="warn">Warn fish</mat-chip-option>
+</mat-chip-listbox> -->
